@@ -5,7 +5,7 @@
 #	define command {
 #				command_name check_ssl_expire
 #				command_line /path/to/script/location/check_ssl_expire -c $ARG1$ -d $ARG2$ -D $ARG3$
-				command_line $USER1$/check_ssl_expire -c $ARG1$ -d $ARG2$ -D $ARG3$
+#				command_line $USER1$/check_ssl_expire -c $ARG1$ -d $ARG2$ -D $ARG3$
 #	}
 #
 #	define service {
